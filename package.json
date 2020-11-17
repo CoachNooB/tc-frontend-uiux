@@ -1,13 +1,11 @@
 {
   "name": "tc-frontend-uiux",
-  "homepage": "https://github.com/CoachNooB/tc-frontend-uiux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
-    "gh-pages": "^3.1.0",
     "mdbreact": "^4.27.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -15,11 +13,10 @@
     "react-scripts": "4.0.0",
     "react-tabs": "^3.1.1",
     "sass": "^1.29.0",
+    "serve": "^11.3.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

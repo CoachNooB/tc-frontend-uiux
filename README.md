@@ -1,89 +1,70 @@
-<p align="center">
-<img src="./_doc/img/picasso.png" width="150" alt="Picasso Grand Hotel" />
-</p>
-<p align="center">Test Case Front-End Developer (UI/UX)</p>
+# Getting Started with Create React App
 
-## I. Diskripsi
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Saat ini Picasso sedang mengembangkan system membership online, dimana terdapat beberapa fitur sebagai berikut:
+## Available Scripts
 
-| Authentication    | Dashboard      |
-| ----------------- | -------------- |
-| - Login           | - Account      |
-| - Registrasion    | - Profile      |
-| - Forgot Password | - Point        |
-|                   | - Stay         |
-|                   | - Invoice      |
-|                   | - Inbox        |
-|                   | - Notification |
+In the project directory, you can run:
 
-Alamat url untuk website: https://member.picassorewards.com, system ini sedang dalam pengembangan terutama tampilan dan interaksi penggunaanya (UI/UX).
+### `npm start`
 
-## II. Petunjuk Dalam Mengerjakan Soal
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### 1. Dari repository Github Test Case ini, anda diminta untuk:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-<p align="center">
-<img src="./_doc/img/repo-fork.png" width="800" alt="Picasso Grand Hotel" />
-</p>
+### `npm test`
 
-- **Fork** repository ini ke akun Github anda.
-- Pekerjaan anda dalam menjawab soal akan berada di repository anda, misal `https://github.com/user_akun_anda/tc-frontend-uiux`.
-- Clone Repository hasil dari `fork` sebagai project di local komputer anda.
-- Anda dapat menambah file atau folder sesuikan dengan kebutuhan project anda.
-- Kami akan melakukan penilaian berdasarkan pekerjaan di repository Github anda.
-- Setelah selesai mengerjakan soal yang diberikan sesuai dengan batas waktu yang diberikan, silahkan anda informasikan alamat repositiry Github anda, replay email soal test yang diberikan di `picassograndhotel@gmail.com`.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### 2. Penilaian
+### `npm run build`
 
-- User Interface (Responsive)
-- User Experience
-- Clean Code
-- CSS/SCSS metode BEM (nilai plus)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## III. Soal
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1.  Anda diminta untuk mengunjungi website Membership Picasso https://member.picassorewards.com, mulai dari halaman Authetication & Dashboard. Untuk halaman Dashboard, anda terlebih dahulu registrasi.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-    Pertanyaan:
+### `npm run eject`
 
-        a. Kritik masing-masing halaman?
-        b. Analisa dan saran masing-masing halaman?
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-    > Untuk jawaban a & b anda bisa tambahkan dibagian **_Jawaban_** (bawah) file README.md.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2.  Dari analisa dan saran (soal 1) menurut anda,
-    kami meminta anda untuk membuat design UI/UX baru `(HTML-CSS-JavaScript)`:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-    Beberapa bagian atau halaman yang anda buat:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-        a. Login
+## Learn More
 
-        b. register
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-        c. Forgot Password
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-        d. Dashboard Member
+### Code Splitting
 
-        e. Account
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-        f. Profile
+### Analyzing the Bundle Size
 
-    Catatan:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-        - Design yang dibuat memperlihatkan data yng ditampilkan.
-        - Anda bebas menggunakan CSS Framework
-        - ***Optional*** untuk menggunakan JavaSript Framework (Vue Js, React Js, dll)
-        - UI responsive
-        - Nilai + jika CSS/SCSS yang dikerjakan menggunakan teknik **BEM**
-        - Push pekerjaan anda di repository Github fork.
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-<p align="center">Selamat Mengerjakan.</p>
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Jawaban Anda
+### Deployment
 
-...
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
